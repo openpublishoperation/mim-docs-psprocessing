@@ -3,11 +3,11 @@ external help file: MIMPAM_Cmdlets.xml
 online version: a328df0f-5d32-4a48-9e6b-b1c5f9899257
 schema: 2.0.0
 ms.assetid: E6CEA6F8-5A7A-4C5F-9034-BA2E72952D95
-updated_at: 12/16/2016 10:33 PM
+updated_at: 12/16/2016 10:39 PM
 ms.date: 12/16/2016
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Get-PAMRequestForReview.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Get-PAMRequestForReview.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d2936ea0bd6215b3aed43b77e4d364e636108a4d/mim-cmdlets/MicrosoftIdentityManager/vlatest/Get-PAMRequestForReview.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/91e8680653c5bbea5afddb262c8a143482b14fd5/mim-cmdlets/MicrosoftIdentityManager/vlatest/Get-PAMRequestForReview.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -159,5 +159,5 @@ Accept wildcard characters: False
 
 [Get-PAMRequestToApprove](xref:MicrosoftIdentityManager/vlatest/Get-PAMRequestToApprove.md)
 
-[Microsoft Identity Manager Privileged Access Management Administrator](xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
+
 

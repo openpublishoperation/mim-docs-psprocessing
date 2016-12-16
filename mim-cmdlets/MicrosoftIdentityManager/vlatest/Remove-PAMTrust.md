@@ -3,11 +3,11 @@ external help file: MIMPAM_Cmdlets.xml
 online version: 54d81a07-17e4-4fb4-b936-7ea5e4ad7186
 schema: 2.0.0
 ms.assetid: F0AFA455-F856-4ECE-8C93-A91F69C28337
-updated_at: 12/16/2016 10:33 PM
+updated_at: 12/16/2016 10:39 PM
 ms.date: 12/16/2016
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Remove-PAMTrust.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Remove-PAMTrust.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d2936ea0bd6215b3aed43b77e4d364e636108a4d/mim-cmdlets/MicrosoftIdentityManager/vlatest/Remove-PAMTrust.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/91e8680653c5bbea5afddb262c8a143482b14fd5/mim-cmdlets/MicrosoftIdentityManager/vlatest/Remove-PAMTrust.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -87,5 +87,5 @@ Accept wildcard characters: False
 
 [Test-PAMTrust](xref:MicrosoftIdentityManager/vlatest/Test-PAMTrust.md)
 
-[Microsoft Identity Manager Privileged Access Management Administrator](xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
+
 

@@ -3,11 +3,11 @@ external help file: MIMPAM_Cmdlets.xml
 online version: 6012424e-297f-40df-bfd0-7c815217d560
 schema: 2.0.0
 ms.assetid: 4AE2B6EF-9538-4AFC-BC61-924EA4C37FA8
-updated_at: 12/16/2016 10:33 PM
+updated_at: 12/16/2016 10:39 PM
 ms.date: 12/16/2016
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Test-PAMDomainConfiguration.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Test-PAMDomainConfiguration.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d2936ea0bd6215b3aed43b77e4d364e636108a4d/mim-cmdlets/MicrosoftIdentityManager/vlatest/Test-PAMDomainConfiguration.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/91e8680653c5bbea5afddb262c8a143482b14fd5/mim-cmdlets/MicrosoftIdentityManager/vlatest/Test-PAMDomainConfiguration.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -88,5 +88,5 @@ Accept wildcard characters: False
 
 [Remove-PAMDomainConfiguration](xref:MicrosoftIdentityManager/vlatest/Remove-PAMDomainConfiguration.md)
 
-[Microsoft Identity Manager Privileged Access Management Administrator](xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
+
 
