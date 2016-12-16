@@ -1,4 +1,2 @@
-- name: MicrosoftIdentityManager
-  tocHref: MicrosoftIdentityManager/toc.yml
-- name: mim-cmdlets
+- name: Microsoft Identity Manager Cmdlets
   tocHref: mim-cmdlets/toc.yml
