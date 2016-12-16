@@ -3,11 +3,11 @@ external help file: MIMPAM_Cmdlets.xml
 online version: 4066d446-6ee0-4d1c-b4ee-5069e32d9567
 schema: 2.0.0
 ms.assetid: CCB40ADA-BCF8-4706-8267-94BCA06C710F
-updated_at: 12/16/2016 10:24 PM
+updated_at: 12/16/2016 10:33 PM
 ms.date: 12/16/2016
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Remove-PAMUser.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Remove-PAMUser.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d76fe71a336b890697ca5b79f29d35c57acf4cc6/mim-cmdlets/MicrosoftIdentityManager/vlatest/Remove-PAMUser.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d2936ea0bd6215b3aed43b77e4d364e636108a4d/mim-cmdlets/MicrosoftIdentityManager/vlatest/Remove-PAMUser.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -134,5 +134,5 @@ Accept wildcard characters: False
 
 [Set-PAMUser](xref:MicrosoftIdentityManager/vlatest/Set-PAMUser.md)
 
-[Microsoft Identity Manager (xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
+[Microsoft Identity Manager Privileged Access Management Administrator](xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
 

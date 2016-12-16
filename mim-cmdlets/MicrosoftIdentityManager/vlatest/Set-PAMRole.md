@@ -3,11 +3,11 @@ external help file: MIMPAM_Cmdlets.xml
 online version: 0baae78c-6bb9-41c5-b0cc-76a85aa90a8a
 schema: 2.0.0
 ms.assetid: CDAC3378-51F6-468E-8755-3F872C859D9F
-updated_at: 12/16/2016 10:24 PM
+updated_at: 12/16/2016 10:33 PM
 ms.date: 12/16/2016
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Set-PAMRole.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Set-PAMRole.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d76fe71a336b890697ca5b79f29d35c57acf4cc6/mim-cmdlets/MicrosoftIdentityManager/vlatest/Set-PAMRole.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d2936ea0bd6215b3aed43b77e4d364e636108a4d/mim-cmdlets/MicrosoftIdentityManager/vlatest/Set-PAMRole.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -264,5 +264,5 @@ Accept wildcard characters: False
 
 [Remove-PAMRole](xref:MicrosoftIdentityManager/vlatest/Remove-PAMRole.md)
 
-[Microsoft Identity Manager (xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
+[Microsoft Identity Manager Privileged Access Management Administrator](xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
 

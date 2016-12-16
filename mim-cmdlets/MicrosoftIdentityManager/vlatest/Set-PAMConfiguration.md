@@ -3,11 +3,11 @@ external help file: MIMPAM_Cmdlets.xml
 online version: d7c0cc30-3987-4f5b-9789-b10d01c839bf
 schema: 2.0.0
 ms.assetid: 4228CA5C-93CE-4D81-B11E-5B578F546250
-updated_at: 12/16/2016 10:24 PM
+updated_at: 12/16/2016 10:33 PM
 ms.date: 12/16/2016
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Set-PAMConfiguration.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Set-PAMConfiguration.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d76fe71a336b890697ca5b79f29d35c57acf4cc6/mim-cmdlets/MicrosoftIdentityManager/vlatest/Set-PAMConfiguration.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d2936ea0bd6215b3aed43b77e4d364e636108a4d/mim-cmdlets/MicrosoftIdentityManager/vlatest/Set-PAMConfiguration.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -184,5 +184,5 @@ Accept wildcard characters: False
 
 [New-PAMRole](xref:MicrosoftIdentityManager/vlatest/New-PAMRole.md)
 
-[Microsoft Identity Manager (xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
+[Microsoft Identity Manager Privileged Access Management Administrator](xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
 

@@ -3,11 +3,11 @@ external help file: MIMPAM_Cmdlets.xml
 online version: bae2036a-2be3-4625-8f42-e4c0373e16cb
 schema: 2.0.0
 ms.assetid: A328DF0F-5D32-4A48-9E6B-B1C5F9899257
-updated_at: 12/16/2016 10:24 PM
+updated_at: 12/16/2016 10:33 PM
 ms.date: 12/16/2016
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Get-PAMRequestToApprove.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MicrosoftIdentityManager/vlatest/Get-PAMRequestToApprove.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d76fe71a336b890697ca5b79f29d35c57acf4cc6/mim-cmdlets/MicrosoftIdentityManager/vlatest/Get-PAMRequestToApprove.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/d2936ea0bd6215b3aed43b77e4d364e636108a4d/mim-cmdlets/MicrosoftIdentityManager/vlatest/Get-PAMRequestToApprove.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -56,5 +56,5 @@ This command returns requests other users made earlier that are pending approval
 
 [Set-PAMRequestToApprove](xref:MicrosoftIdentityManager/vlatest/Set-PAMRequestToApprove.md)
 
-[Microsoft Identity Manager (xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
+[Microsoft Identity Manager Privileged Access Management Administrator](xref:MicrosoftIdentityManager/vlatest/MIMPAM.md)
 
