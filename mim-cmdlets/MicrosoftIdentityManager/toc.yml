@@ -1,0 +1,61 @@
+- name: vlatest
+  href: ../vlatest/MIMPAM.md
+  items:
+    - name: Close-PAMRequest
+      href: ../vlatest/Close-PAMRequest.md
+    - name: Close-PAMRequestForControl
+      href: ../vlatest/Close-PAMRequestForControl.md
+    - name: Get-PAMConfiguration
+      href: ../vlatest/Get-PAMConfiguration.md
+    - name: Get-PAMGroup
+      href: ../vlatest/Get-PAMGroup.md
+    - name: Get-PAMRequest
+      href: ../vlatest/Get-PAMRequest.md
+    - name: Get-PAMRequestForReview
+      href: ../vlatest/Get-PAMRequestForReview.md
+    - name: Get-PAMRequestToApprove
+      href: ../vlatest/Get-PAMRequestToApprove.md
+    - name: Get-PAMRole
+      href: ../vlatest/Get-PAMRole.md
+    - name: Get-PAMRoleForRequest
+      href: ../vlatest/Get-PAMRoleForRequest.md
+    - name: Get-PAMUser
+      href: ../vlatest/Get-PAMUser.md
+    - name: New-PAMDomainConfiguration
+      href: ../vlatest/New-PAMDomainConfiguration.md
+    - name: New-PAMGroup
+      href: ../vlatest/New-PAMGroup.md
+    - name: New-PAMRequest
+      href: ../vlatest/New-PAMRequest.md
+    - name: New-PAMRole
+      href: ../vlatest/New-PAMRole.md
+    - name: New-PAMSession
+      href: ../vlatest/New-PAMSession.md
+    - name: New-PAMTrust
+      href: ../vlatest/New-PAMTrust.md
+    - name: New-PAMUser
+      href: ../vlatest/New-PAMUser.md
+    - name: Remove-PAMDomainConfiguration
+      href: ../vlatest/Remove-PAMDomainConfiguration.md
+    - name: Remove-PAMGroup
+      href: ../vlatest/Remove-PAMGroup.md
+    - name: Remove-PAMRole
+      href: ../vlatest/Remove-PAMRole.md
+    - name: Remove-PAMTrust
+      href: ../vlatest/Remove-PAMTrust.md
+    - name: Remove-PAMUser
+      href: ../vlatest/Remove-PAMUser.md
+    - name: Set-PAMConfiguration
+      href: ../vlatest/Set-PAMConfiguration.md
+    - name: Set-PAMGroup
+      href: ../vlatest/Set-PAMGroup.md
+    - name: Set-PAMRequestToApprove
+      href: ../vlatest/Set-PAMRequestToApprove.md
+    - name: Set-PAMRole
+      href: ../vlatest/Set-PAMRole.md
+    - name: Set-PAMUser
+      href: ../vlatest/Set-PAMUser.md
+    - name: Test-PAMDomainConfiguration
+      href: ../vlatest/Test-PAMDomainConfiguration.md
+    - name: Test-PAMTrust
+      href: ../vlatest/Test-PAMTrust.md
