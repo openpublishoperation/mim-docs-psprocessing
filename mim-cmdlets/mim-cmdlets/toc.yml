@@ -1,0 +1,63 @@
+- name: MicrosoftIdentityManager
+  items:
+    - name: vlatest
+      href: ../MicrosoftIdentityManager/vlatest/MIMPAM.md
+      items:
+        - name: Close-PAMRequest
+          href: ../MicrosoftIdentityManager/vlatest/Close-PAMRequest.md
+        - name: Close-PAMRequestForControl
+          href: ../MicrosoftIdentityManager/vlatest/Close-PAMRequestForControl.md
+        - name: Get-PAMConfiguration
+          href: ../MicrosoftIdentityManager/vlatest/Get-PAMConfiguration.md
+        - name: Get-PAMGroup
+          href: ../MicrosoftIdentityManager/vlatest/Get-PAMGroup.md
+        - name: Get-PAMRequest
+          href: ../MicrosoftIdentityManager/vlatest/Get-PAMRequest.md
+        - name: Get-PAMRequestForReview
+          href: ../MicrosoftIdentityManager/vlatest/Get-PAMRequestForReview.md
+        - name: Get-PAMRequestToApprove
+          href: ../MicrosoftIdentityManager/vlatest/Get-PAMRequestToApprove.md
+        - name: Get-PAMRole
+          href: ../MicrosoftIdentityManager/vlatest/Get-PAMRole.md
+        - name: Get-PAMRoleForRequest
+          href: ../MicrosoftIdentityManager/vlatest/Get-PAMRoleForRequest.md
+        - name: Get-PAMUser
+          href: ../MicrosoftIdentityManager/vlatest/Get-PAMUser.md
+        - name: New-PAMDomainConfiguration
+          href: ../MicrosoftIdentityManager/vlatest/New-PAMDomainConfiguration.md
+        - name: New-PAMGroup
+          href: ../MicrosoftIdentityManager/vlatest/New-PAMGroup.md
+        - name: New-PAMRequest
+          href: ../MicrosoftIdentityManager/vlatest/New-PAMRequest.md
+        - name: New-PAMRole
+          href: ../MicrosoftIdentityManager/vlatest/New-PAMRole.md
+        - name: New-PAMSession
+          href: ../MicrosoftIdentityManager/vlatest/New-PAMSession.md
+        - name: New-PAMTrust
+          href: ../MicrosoftIdentityManager/vlatest/New-PAMTrust.md
+        - name: New-PAMUser
+          href: ../MicrosoftIdentityManager/vlatest/New-PAMUser.md
+        - name: Remove-PAMDomainConfiguration
+          href: ../MicrosoftIdentityManager/vlatest/Remove-PAMDomainConfiguration.md
+        - name: Remove-PAMGroup
+          href: ../MicrosoftIdentityManager/vlatest/Remove-PAMGroup.md
+        - name: Remove-PAMRole
+          href: ../MicrosoftIdentityManager/vlatest/Remove-PAMRole.md
+        - name: Remove-PAMTrust
+          href: ../MicrosoftIdentityManager/vlatest/Remove-PAMTrust.md
+        - name: Remove-PAMUser
+          href: ../MicrosoftIdentityManager/vlatest/Remove-PAMUser.md
+        - name: Set-PAMConfiguration
+          href: ../MicrosoftIdentityManager/vlatest/Set-PAMConfiguration.md
+        - name: Set-PAMGroup
+          href: ../MicrosoftIdentityManager/vlatest/Set-PAMGroup.md
+        - name: Set-PAMRequestToApprove
+          href: ../MicrosoftIdentityManager/vlatest/Set-PAMRequestToApprove.md
+        - name: Set-PAMRole
+          href: ../MicrosoftIdentityManager/vlatest/Set-PAMRole.md
+        - name: Set-PAMUser
+          href: ../MicrosoftIdentityManager/vlatest/Set-PAMUser.md
+        - name: Test-PAMDomainConfiguration
+          href: ../MicrosoftIdentityManager/vlatest/Test-PAMDomainConfiguration.md
+        - name: Test-PAMTrust
+          href: ../MicrosoftIdentityManager/vlatest/Test-PAMTrust.md
