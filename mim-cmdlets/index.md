@@ -1,1 +1,1 @@
-# Welcome to mim-cmdlets!
+# Welcome to Microsoft Identity Manager Cmdlets Reference!

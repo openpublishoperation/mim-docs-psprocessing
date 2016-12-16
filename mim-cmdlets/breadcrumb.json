@@ -1,1 +1,24 @@
+[
+   {
+      "toc_title": "Docs",
+      "href": "/",
+      "level": 1,
+      "children": [
+         {
+            "href": "/powershell/mim/",
+            "homepage": "/powershell/mim/",
+            "toc_title": "Microsoft Identity Manager",
+            "level": 2,
+            "children": [
+               {
+                  "href": "/powershell/mim/mim-cmdlets/",
+                  "homepage": "/powershell/mim/mim-cmdlets/",
+                  "toc_title": "mim cmdlets",
+                  "level": 3
+               }
+            ]
+         }
+      ]
+   }
+]
 
