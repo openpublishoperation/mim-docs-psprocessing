@@ -4,8 +4,8 @@
     "level":  1,
     "children":  [
                      {
-                         "href":  "/powershell/identitymanager/",
-                         "homepage":  "/powershell/identitymanager/",
+                         "href":  "/powershell/identitymanager/mim-cmdlets",
+                         "homepage":  "/powershell/identitymanager/mim-cmdlets",
                          "toc_title":  "Microsoft Identity Manager",
                          "level":  2,
                          "children":  [
