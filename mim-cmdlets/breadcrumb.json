@@ -1,27 +1,7 @@
-[{
-    "toc_title":  "Docs",
-    "href":  "/",
-    "level":  1,
-    "children":  [
-                     {
-                         "href":  "/powershell/identitymanager/mim-cmdlets",
-                         "homepage":  "/powershell/identitymanager/mim-cmdlets",
-                         "toc_title":  "Microsoft Identity Manager",
-                         "level":  2,
-                         "children":  [
-                                          {
-                                              "href":  "/powershell/identitymanager/mim-cmdlets/",
-                                              "homepage":  "/powershell/identitymanager/mim-cmdlets/",
-                                              "toc_title":  "mim cmdlets",
-                                              "level":  3
-                                          },
-                                          {
-                                              "homepage":  "/powershell/identitymanager/MicrosoftIdentityManager/",
-                                              "toc_title":  "MicrosoftIdentityManager",
-                                              "href":  "/powershell/identitymanager/MicrosoftIdentityManager/",
-                                              "level":  3
-                                          }
-                                      ]
-                     }
-                 ]
-}]
+- name: Docs
+  href: /
+  homepage: /
+  items:
+  - name: Identity Manager Cmdlets
+    tocHref: /identitymanager/mim-cmdlets/
+    topicHref: /identitymanager/mim-cmdlets/index
