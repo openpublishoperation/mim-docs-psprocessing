@@ -1,0 +1,63 @@
+- name: MIMPAM
+  items:
+    - name: vlatest
+      href: ../MIMPAM/vlatest/MIMPAM.md
+      items:
+        - name: Close-PAMRequest
+          href: ../MIMPAM/vlatest/Close-PAMRequest.md
+        - name: Close-PAMRequestForControl
+          href: ../MIMPAM/vlatest/Close-PAMRequestForControl.md
+        - name: Get-PAMConfiguration
+          href: ../MIMPAM/vlatest/Get-PAMConfiguration.md
+        - name: Get-PAMGroup
+          href: ../MIMPAM/vlatest/Get-PAMGroup.md
+        - name: Get-PAMRequest
+          href: ../MIMPAM/vlatest/Get-PAMRequest.md
+        - name: Get-PAMRequestForReview
+          href: ../MIMPAM/vlatest/Get-PAMRequestForReview.md
+        - name: Get-PAMRequestToApprove
+          href: ../MIMPAM/vlatest/Get-PAMRequestToApprove.md
+        - name: Get-PAMRole
+          href: ../MIMPAM/vlatest/Get-PAMRole.md
+        - name: Get-PAMRoleForRequest
+          href: ../MIMPAM/vlatest/Get-PAMRoleForRequest.md
+        - name: Get-PAMUser
+          href: ../MIMPAM/vlatest/Get-PAMUser.md
+        - name: New-PAMDomainConfiguration
+          href: ../MIMPAM/vlatest/New-PAMDomainConfiguration.md
+        - name: New-PAMGroup
+          href: ../MIMPAM/vlatest/New-PAMGroup.md
+        - name: New-PAMRequest
+          href: ../MIMPAM/vlatest/New-PAMRequest.md
+        - name: New-PAMRole
+          href: ../MIMPAM/vlatest/New-PAMRole.md
+        - name: New-PAMSession
+          href: ../MIMPAM/vlatest/New-PAMSession.md
+        - name: New-PAMTrust
+          href: ../MIMPAM/vlatest/New-PAMTrust.md
+        - name: New-PAMUser
+          href: ../MIMPAM/vlatest/New-PAMUser.md
+        - name: Remove-PAMDomainConfiguration
+          href: ../MIMPAM/vlatest/Remove-PAMDomainConfiguration.md
+        - name: Remove-PAMGroup
+          href: ../MIMPAM/vlatest/Remove-PAMGroup.md
+        - name: Remove-PAMRole
+          href: ../MIMPAM/vlatest/Remove-PAMRole.md
+        - name: Remove-PAMTrust
+          href: ../MIMPAM/vlatest/Remove-PAMTrust.md
+        - name: Remove-PAMUser
+          href: ../MIMPAM/vlatest/Remove-PAMUser.md
+        - name: Set-PAMConfiguration
+          href: ../MIMPAM/vlatest/Set-PAMConfiguration.md
+        - name: Set-PAMGroup
+          href: ../MIMPAM/vlatest/Set-PAMGroup.md
+        - name: Set-PAMRequestToApprove
+          href: ../MIMPAM/vlatest/Set-PAMRequestToApprove.md
+        - name: Set-PAMRole
+          href: ../MIMPAM/vlatest/Set-PAMRole.md
+        - name: Set-PAMUser
+          href: ../MIMPAM/vlatest/Set-PAMUser.md
+        - name: Test-PAMDomainConfiguration
+          href: ../MIMPAM/vlatest/Test-PAMDomainConfiguration.md
+        - name: Test-PAMTrust
+          href: ../MIMPAM/vlatest/Test-PAMTrust.md
