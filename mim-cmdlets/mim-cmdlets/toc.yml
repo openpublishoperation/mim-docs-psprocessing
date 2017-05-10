@@ -1,3 +1,47 @@
+- name: FIMAutomation
+  items:
+    - name: vlatest
+      href: ../FIMAutomation/vlatest/FIMAutomation.md
+      items:
+        - name: Compare-FIMConfig
+          href: ../FIMAutomation/vlatest/Compare-FIMConfig.md
+        - name: Confirm-AuthenticationWorkflowRegistration
+          href: ../FIMAutomation/vlatest/Confirm-AuthenticationWorkflowRegistration.md
+        - name: ConvertFrom-FIMResource
+          href: ../FIMAutomation/vlatest/ConvertFrom-FIMResource.md
+        - name: ConvertTo-FIMResource
+          href: ../FIMAutomation/vlatest/ConvertTo-FIMResource.md
+        - name: Export-FIMConfig
+          href: ../FIMAutomation/vlatest/Export-FIMConfig.md
+        - name: Get-AuthenticationWorkflowRegistrationTemplate
+          href: ../FIMAutomation/vlatest/Get-AuthenticationWorkflowRegistrationTemplate.md
+        - name: Import-FIMConfig
+          href: ../FIMAutomation/vlatest/Import-FIMConfig.md
+        - name: Join-FIMConfig
+          href: ../FIMAutomation/vlatest/Join-FIMConfig.md
+        - name: Register-AuthenticationWorkflow
+          href: ../FIMAutomation/vlatest/Register-AuthenticationWorkflow.md
+        - name: Unregister-AuthenticationWorkflow
+          href: ../FIMAutomation/vlatest/Unregister-AuthenticationWorkflow.md
+- name: Microsoft.DirectoryServices.MetadirectoryServices.Config
+  items:
+    - name: vlatest
+      href: ../Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Microsoft.DirectoryServices.MetadirectoryServices.Config.md
+      items:
+        - name: Add-MIISADMARunProfileStep
+          href: ../Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Add-MIISADMARunProfileStep.md
+        - name: Import-MIISServerConfig
+          href: ../Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Import-MIISServerConfig.md
+        - name: Set-MIISADMAConfiguration
+          href: ../Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Set-MIISADMAConfiguration.md
+        - name: Set-MIISECMA2Configuration
+          href: ../Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Set-MIISECMA2Configuration.md
+        - name: Set-MIISExtMAConfiguration
+          href: ../Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Set-MIISExtMAConfiguration.md
+        - name: Set-MIISFIMMAConfiguration
+          href: ../Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Set-MIISFIMMAConfiguration.md
+        - name: Set-ProvisioningRulesExtension
+          href: ../Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Set-ProvisioningRulesExtension.md
 - name: MIMPAM
   items:
     - name: vlatest
