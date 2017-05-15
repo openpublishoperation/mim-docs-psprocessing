@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: CDAC3378-51F6-468E-8755-3F872C859D9F
-updated_at: 4/24/2017 10:54 PM
-ms.date: 4/24/2017
+updated_at: 5/15/2017 3:45 PM
+ms.date: 5/15/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/MIMPAM/vlatest/Set-PAMRole.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/MIMPAM/vlatest/Set-PAMRole.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/3e9264276b5141f0a82bd9905d67bb4900c9c2b3/mim-cmdlets/MIMPAM/vlatest/Set-PAMRole.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/9b28322895cedef17814e137aefa9d68fe2293a6/mim-cmdlets/MIMPAM/vlatest/Set-PAMRole.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -53,7 +53,7 @@ This command adds a candidate user to a PAM role in the MIM Service.
 ## PARAMETERS
 
 ### -ApprovalEnabled
-Specifies, if true, activation requests to this role will require approval by a role owner.
+Indicates whether the cmdlet requires approval by a role owner when activating requests to this role.
 
 ```yaml
 Type: Boolean
@@ -68,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -Approvers
-Indicates role owners that will approve activation requests if ApprovalEnabled is set to true
+Specifies an array of role owners that will approve activation requests if ApprovalEnabled is set to true.
 ```yaml
 Type: PAMUser[]
 Parameter Sets: (All)

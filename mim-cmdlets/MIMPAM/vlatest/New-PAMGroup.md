@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F6C3AAA3-E9D1-4CFF-B5A9-A937C5D61AF0
-updated_at: 4/24/2017 10:54 PM
-ms.date: 4/24/2017
+updated_at: 5/15/2017 3:45 PM
+ms.date: 5/15/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/MIMPAM/vlatest/New-PAMGroup.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/MIMPAM/vlatest/New-PAMGroup.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/3e9264276b5141f0a82bd9905d67bb4900c9c2b3/mim-cmdlets/MIMPAM/vlatest/New-PAMGroup.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/9b28322895cedef17814e137aefa9d68fe2293a6/mim-cmdlets/MIMPAM/vlatest/New-PAMGroup.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -41,7 +41,7 @@ PS C:\> $PAMGroup = New-PAMGroup -SourceGroupName "CorpAdmins" -SourceDomain "CO
 ```
 
 This command creates a new foreign principal group in the Active Directory forest privileged access management (PAM) domain.
-The SID of the group will be copied from the group CorpAdmins in the domain CORP. 
+The security ID (SID) of the group will be copied from the group CorpAdmins in the domain CORP. 
 The SIDHistory mechanism will be used to copy the SID from the originating Windows Server CORPDC. 
 The credentials in the variable $Cred, obtained from a previous call to get-credential, will be used to authenticate to the CORPDC.
 The returned data structure can be used as an argument to the [New-PAMRole](./New-PAMRole.md) cmdlet.

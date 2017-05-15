@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 54D81A07-17E4-4FB4-B936-7EA5E4AD7186
-updated_at: 4/24/2017 10:54 PM
-ms.date: 4/24/2017
+updated_at: 5/15/2017 3:45 PM
+ms.date: 5/15/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/MIMPAM/vlatest/New-PAMTrust.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/MIMPAM/vlatest/New-PAMTrust.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/3e9264276b5141f0a82bd9905d67bb4900c9c2b3/mim-cmdlets/MIMPAM/vlatest/New-PAMTrust.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/9b28322895cedef17814e137aefa9d68fe2293a6/mim-cmdlets/MIMPAM/vlatest/New-PAMTrust.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -29,7 +29,7 @@ New-PAMTrust [-SourceForest] <String> [-Credentials] <PSCredential> [-Bidirectio
 ```
 
 ## DESCRIPTION
-The **New-PAMTrust** cmdlet establishes a trust relationship from a domain in an existing forest to the PAM domain.
+The **New-PAMTrust** cmdlet establishes a trust relationship from a domain in an existing forest to the Privileged Access Management (PAM) domain.
 
 ## EXAMPLES
 
@@ -104,4 +104,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Test-PAMTrust](xref:MIMPAM/vlatest/Test-PAMTrust.md)
 
 [Microsoft Identity Manager (xref:MIMPAM/vlatest/MIMPAM.md)
-
