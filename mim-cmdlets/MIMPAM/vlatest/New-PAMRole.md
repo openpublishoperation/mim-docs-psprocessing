@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 0332854C-EB3A-4EA8-BFEC-A72618778663
-updated_at: 4/24/2017 10:54 PM
-ms.date: 4/24/2017
+updated_at: 5/15/2017 3:45 PM
+ms.date: 5/15/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/New-PAMRole.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/New-PAMRole.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/3e9264276b5141f0a82bd9905d67bb4900c9c2b3/mim-cmdlets/MIMPAM/vlatest/New-PAMRole.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/9b28322895cedef17814e137aefa9d68fe2293a6/mim-cmdlets/MIMPAM/vlatest/New-PAMRole.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -66,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -Approvers
-Indicates role owners that will approve activation requests if ApprovalEnabled is set to true
+Indicates role owners that will approve activation requests if ApprovalEnabled is set to true.
 ```yaml
 Type: PAMUser[]
 Parameter Sets: (All)
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 ```
 
 ### -AvailabilityWindowEnabled
-Indicates the role can only be activated during a specified time interval
+Indicates the role can only be activated during a specified time interval.
 
 ```yaml
 Type: SwitchParameter
@@ -111,7 +111,7 @@ Accept wildcard characters: False
 ```
 
 ### -AvailableTo
-Indicates the latest time of day that a request will be activated. 
+Indicates the latest time of day that a request is activated. 
 Only the time portion of the parameter is used.
 
 ```yaml

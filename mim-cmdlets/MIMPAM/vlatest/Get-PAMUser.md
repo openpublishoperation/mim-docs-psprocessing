@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 4066D446-6EE0-4D1C-B4EE-5069E32D9567
-updated_at: 4/24/2017 10:54 PM
-ms.date: 4/24/2017
+updated_at: 5/15/2017 3:45 PM
+ms.date: 5/15/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/Get-PAMUser.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/Get-PAMUser.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/3e9264276b5141f0a82bd9905d67bb4900c9c2b3/mim-cmdlets/MIMPAM/vlatest/Get-PAMUser.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/9b28322895cedef17814e137aefa9d68fe2293a6/mim-cmdlets/MIMPAM/vlatest/Get-PAMUser.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -PrivDisplayName
-Specifies the matching value for the DisplayName of the user in the PAM domain.
+Specifies the matching value for the DisplayName of the user in the Privileged Access Management (PAM) domain.
 
 ```yaml
 Type: String

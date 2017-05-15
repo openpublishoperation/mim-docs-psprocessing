@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D41947C3-21DE-4585-824D-B164891FC6D7
-updated_at: 4/24/2017 10:54 PM
-ms.date: 4/24/2017
+updated_at: 5/15/2017 3:45 PM
+ms.date: 5/15/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/Get-PAMRequest.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/Get-PAMRequest.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/3e9264276b5141f0a82bd9905d67bb4900c9c2b3/mim-cmdlets/MIMPAM/vlatest/Get-PAMRequest.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/9b28322895cedef17814e137aefa9d68fe2293a6/mim-cmdlets/MIMPAM/vlatest/Get-PAMRequest.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -43,7 +43,7 @@ You must specify the user object parameter that can be retrieved by calling the 
 
 ### Example 1: View requests from a user
 ```
-PS C:\> Get-PAMRequest -User (Get-PAMUser -PrivDisplayName "contoso.Jen")
+PS C:\> Get-PAMRequest -User (Get-PAMUser -PrivDisplayName "contoso.PattiF")
 ```
 
 This command retrieves requests from a user that are stored in the MIM Service.
