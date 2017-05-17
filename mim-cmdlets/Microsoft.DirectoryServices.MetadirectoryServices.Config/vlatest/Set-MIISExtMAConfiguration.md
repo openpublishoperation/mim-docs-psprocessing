@@ -2,11 +2,11 @@
 external help file: Microsoft.DirectoryServices.MetadirectoryServices.Config.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 5/9/2017 3:47 PM
-ms.date: 5/9/2017
+updated_at: 5/17/2017 7:27 PM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Set-MIISExtMAConfiguration.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Set-MIISExtMAConfiguration.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/bba03e1e0b7bea04619c48b98278723b1a8fc13d/mim-cmdlets/Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Set-MIISExtMAConfiguration.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/700d23db59d8a09b3e8f23225322beb52d5b1d73/mim-cmdlets/Microsoft.DirectoryServices.MetadirectoryServices.Config/vlatest/Set-MIISExtMAConfiguration.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -156,5 +156,5 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Unkown]()
+
 

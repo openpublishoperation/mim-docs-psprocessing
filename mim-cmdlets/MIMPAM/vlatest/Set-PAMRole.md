@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: CDAC3378-51F6-468E-8755-3F872C859D9F
-updated_at: 5/15/2017 3:45 PM
-ms.date: 5/15/2017
+updated_at: 5/17/2017 7:27 PM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/Set-PAMRole.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/Set-PAMRole.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/9b28322895cedef17814e137aefa9d68fe2293a6/mim-cmdlets/MIMPAM/vlatest/Set-PAMRole.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/700d23db59d8a09b3e8f23225322beb52d5b1d73/mim-cmdlets/MIMPAM/vlatest/Set-PAMRole.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -267,4 +267,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Remove-PAMRole](xref:MIMPAM/vlatest/Remove-PAMRole.md)
 
-[Microsoft Identity Manager (xref:MIMPAM/vlatest/MIMPAM.md)
+

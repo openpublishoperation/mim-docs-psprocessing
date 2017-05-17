@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 82EDF13E-E87C-487E-A154-CEB4CC0E8622
-updated_at: 4/24/2017 10:54 PM
-ms.date: 4/24/2017
+updated_at: 5/17/2017 7:27 PM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/New-PAMUser.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/New-PAMUser.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/3e9264276b5141f0a82bd9905d67bb4900c9c2b3/mim-cmdlets/MIMPAM/vlatest/New-PAMUser.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/700d23db59d8a09b3e8f23225322beb52d5b1d73/mim-cmdlets/MIMPAM/vlatest/New-PAMUser.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -199,4 +199,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [New-PAMRole](xref:MIMPAM/vlatest/New-PAMRole.md)
 
-[Microsoft Identity Manager (xref:MIMPAM/vlatest/MIMPAM.md)
+

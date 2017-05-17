@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: F6C3AAA3-E9D1-4CFF-B5A9-A937C5D61AF0
-updated_at: 5/15/2017 3:45 PM
-ms.date: 5/15/2017
+updated_at: 5/17/2017 7:27 PM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/New-PAMGroup.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/New-PAMGroup.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/9b28322895cedef17814e137aefa9d68fe2293a6/mim-cmdlets/MIMPAM/vlatest/New-PAMGroup.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/700d23db59d8a09b3e8f23225322beb52d5b1d73/mim-cmdlets/MIMPAM/vlatest/New-PAMGroup.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -180,4 +180,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Set-PAMGroup](xref:MIMPAM/vlatest/Set-PAMGroup.md)
 
-[Microsoft Identity Manager (xref:MIMPAM/vlatest/MIMPAM.md)
+

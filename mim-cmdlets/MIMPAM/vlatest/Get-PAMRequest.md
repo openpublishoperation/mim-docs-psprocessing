@@ -3,11 +3,11 @@ external help file: Microsoft.IdentityManagement.AdminPamCmdlets.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: D41947C3-21DE-4585-824D-B164891FC6D7
-updated_at: 5/15/2017 3:45 PM
-ms.date: 5/15/2017
+updated_at: 5/17/2017 7:27 PM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/Get-PAMRequest.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/MIMPAM/vlatest/Get-PAMRequest.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/9b28322895cedef17814e137aefa9d68fe2293a6/mim-cmdlets/MIMPAM/vlatest/Get-PAMRequest.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/700d23db59d8a09b3e8f23225322beb52d5b1d73/mim-cmdlets/MIMPAM/vlatest/Get-PAMRequest.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -203,4 +203,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [New-PAMRequest](xref:MIMPAM/vlatest/New-PAMRequest.md)
 
-[Microsoft Identity Manager (xref:MIMPAM/vlatest/MIMPAM.md)
+
