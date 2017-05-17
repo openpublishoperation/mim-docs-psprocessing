@@ -2,11 +2,11 @@
 external help file: Microsoft.ResourceManagement.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 5/9/2017 3:47 PM
-ms.date: 5/9/2017
+updated_at: 5/17/2017 2:42 AM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/FIMAutomation/vlatest/Get-AuthenticationWorkflowRegistrationTemplate.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/FIMAutomation/vlatest/Get-AuthenticationWorkflowRegistrationTemplate.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/bba03e1e0b7bea04619c48b98278723b1a8fc13d/mim-cmdlets/FIMAutomation/vlatest/Get-AuthenticationWorkflowRegistrationTemplate.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/b087c1fa22e293ca887d71e98791a50333e0c2ab/mim-cmdlets/FIMAutomation/vlatest/Get-AuthenticationWorkflowRegistrationTemplate.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -19,8 +19,8 @@ ms.service: identity-manager
 # Get-AuthenticationWorkflowRegistrationTemplate
 
 ## SYNOPSIS
-Returns an object of type AuthenticationWorkflowRegistrationTemplate that corresponds to an authentication workflow defined within the target Forefront Identity Manager service instance.
-The workflow is specified by passing the name of the workflow as parameter.
+Gets an object of type AuthenticationWorkflowRegistrationTemplate that corresponds to an authentication workflow defined within the target Forefront Identity Manager service instance.
+
 
 ## SYNTAX
 
@@ -30,26 +30,26 @@ Get-AuthenticationWorkflowRegistrationTemplate -AuthenticationWorkflowName <Stri
 ```
 
 ## DESCRIPTION
-Returns an object of type AuthenticationWorkflowRegistrationTemplate that corresponds to an authentication workflow defined within the target Forefront Identity Manager service instance.
+The **Get-AuthenticationWorkflowRegistrationTemplate** cmdlet gets an object of type **AuthenticationWorkflowRegistrationTemplate** that corresponds to an authentication workflow defined within the target Forefront Identity Manager service instance.
 The workflow is specified by passing the name of the workflow as parameter.
 The registration workflow template contain a collection of gate registration templates which correspond to the interactive gates (authentication activities) contained within the authentication workflow. 
 Each registration gate in turn contains a Data property which is an array of name/value pairs of data required to register for the gate.
 
-        Use the returned template objects to register a user for an authentication workflow using the Register-AuthenticationWorkflow cmdlet.
+        
 
 ## EXAMPLES
 
-### --------------  Get a specific authentication workflow registration template --------------
+### Example 1: Get a specific authentication workflow registration template
 ```
-$template = Get-AuthenticationWorkflowRegistrationTemplate -AuthenticationWorkflowName "Password Reset AuthN Workflow"
+$Template = Get-AuthenticationWorkflowRegistrationTemplate -AuthenticationWorkflowName "Password Reset AuthN Workflow"
 ```
 
-In this example command will the authentication workflow template if the workflow with the specified name exists in the FIM Database.
+This command authenticates the workflow template if the workflow with the specified name exists in the FIM Database.
 
 ## PARAMETERS
 
 ### -AuthenticationWorkflowName
-The display name of the authentication workflow which you wish to return.
+Specifies the display name of the authentication workflow which this cmdlet gets.
 
 ```yaml
 Type: String
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -Uri
-The uniform resource identifier for the Forefront Identity Manager service.
+Specifies the uniform resource identifier (URI) for the Forefront Identity Manager service.
 
 ```yaml
 Type: String
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-The user credentials required to access the Forefront Identity Manager service.
+Specifies the user credentials required to access the Forefront Identity Manager service.
 
 ```yaml
 Type: PSCredential
@@ -103,9 +103,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Register-AuthenticationWorkflow]()
+[Confirm-AuthenticationWorkflowRegistration](Confirm-AuthenticationWorkflowRegistration.md)
 
-[Unregister-AuthenticationWorkflow]()
+[Register-AuthenticationWorkflow](xref:FIMAutomation/vlatest/Register-AuthenticationWorkflow.md)
 
-[Confirm-AuthenticationWorkflowRegistration]()
-
+[Unregister-AuthenticationWorkflow](xref:FIMAutomation/vlatest/Unregister-AuthenticationWorkflow.md)

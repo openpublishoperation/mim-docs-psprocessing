@@ -2,11 +2,11 @@
 external help file: Microsoft.ResourceManagement.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 5/9/2017 3:47 PM
-ms.date: 5/9/2017
+updated_at: 5/17/2017 2:42 AM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/FIMAutomation/vlatest/ConvertFrom-FIMResource.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/FIMAutomation/vlatest/ConvertFrom-FIMResource.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/bba03e1e0b7bea04619c48b98278723b1a8fc13d/mim-cmdlets/FIMAutomation/vlatest/ConvertFrom-FIMResource.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/b087c1fa22e293ca887d71e98791a50333e0c2ab/mim-cmdlets/FIMAutomation/vlatest/ConvertFrom-FIMResource.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -28,25 +28,23 @@ ConvertFrom-FIMResource [-Objects <BaseObject>] [-ObjectType <String>] [-File <S
 ```
 
 ## DESCRIPTION
-The ConvertFrom-FIMResource in the Windows PowerShell™ command-line interface serializes into XML resources used elsewhere in the Forefront Identity Manager (FIM) Automation snap-in.
+The **ConvertFrom-FIMResource** cmdlet serializes into XML resources used elsewhere in the Forefront Identity Manager (FIM) Automation snap-in.
 The cmdlet takes ExportObject, ImportObject, or MatchObject instances as input.
 With this cmdlet, you can save intermediate work and transfer it among computers.
 
 The cmdlet serializes the resources by using XmlObjectSerializer in Microsoft .NET.
-You must use this cmdlet instead ofExport-ClixmlbecauseExport-Clixmldoes not preserve nested and complex types.
+You must use this cmdlet instead of **Export-Clixml** because that cmdlet does not preserve nested and complex types.
 
-To help distinguish ConvertTo-FIMResource from ConvertFrom-FIMResource , remember that you are converting from FIM resources to a file.
-
-For more information about themmseeWindows PowerShell™ cmdlet set see about_FIM.
+To help distinguish **ConvertTo-FIMResource** from **ConvertFrom-FIMResource**, remember that you are converting from FIM resources to a file.
 
 ## EXAMPLES
 
-### ------------------------ EXAMPLE 1 ------------------------
+### Example 1: Serialize ExportObject objects 
 ```
-$pilot =  Export-FIMConfig  -uri http://localhost:5725/ResourceManagementService -policyConfig $pilot |  ConvertFrom-FIMResource  -file pilot.xml
+$Pilot =  Export-FIMConfig  -Uri http://localhost:5725/ResourceManagementService -PolicyConfig $Pilot |  ConvertFrom-FIMResource  -File pilot.xml
 ```
 
-This is a simple example of how you can serialize ExportObject objects to transport across a firewall.
+This command shows how you can serialize ExportObject objects for transport across a firewall.
 
 ## PARAMETERS
 
@@ -66,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -File
-{{Fill File Description}}
+Specifies the filename that contains the objects that this cmdlet converts.
 
 ```yaml
 Type: String
@@ -81,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -Objects
-{{Fill Objects Description}}
+Specifies the objects that this cmdlet converts.
 
 ```yaml
 Type: BaseObject
@@ -96,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectType
-{{Fill ObjectType Description}}
+Specifies the object type.
 
 ```yaml
 Type: String
@@ -129,7 +127,7 @@ Accept wildcard characters: False
 ## INPUTS
 
 ### ExportObject[] | ImportObject[] | MatchObject[]
-The resources to serialize.
+Specifies the resources that this cmdlet serializes.
 
 ## OUTPUTS
 
@@ -140,15 +138,12 @@ There is no return value.
 
 ## RELATED LINKS
 
-[Export-FIMConfig]()
+[Compare-FIMConfig](xref:FIMAutomation/vlatest/Compare-FIMConfig.md)
 
-[Join-FIMConfig]()
+[ConvertTo-FIMResource](xref:FIMAutomation/vlatest/ConvertTo-FIMResource.md)
 
-[Compare-FIMConfig]()
+[Export-FIMConfig](xref:FIMAutomation/vlatest/Export-FIMConfig.md)
 
-[Import-FIMResource]()
+[Import-FIMResource](xref:FIMAutomation/vlatest/Import-FIMResource.md)
 
-[ConvertTo-FIMResource]()
-
-[Export-Clixml]()
-
+[Join-FIMConfig](xref:FIMAutomation/vlatest/Join-FIMConfig.md)

@@ -2,11 +2,11 @@
 external help file: Microsoft.ResourceManagement.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 5/9/2017 3:47 PM
-ms.date: 5/9/2017
+updated_at: 5/17/2017 2:42 AM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/FIMAutomation/vlatest/ConvertTo-FIMResource.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/FIMAutomation/vlatest/ConvertTo-FIMResource.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/bba03e1e0b7bea04619c48b98278723b1a8fc13d/mim-cmdlets/FIMAutomation/vlatest/ConvertTo-FIMResource.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/b087c1fa22e293ca887d71e98791a50333e0c2ab/mim-cmdlets/FIMAutomation/vlatest/ConvertTo-FIMResource.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -28,24 +28,23 @@ ConvertTo-FIMResource [-File <String>] [-WhatIf] [-Confirm]
 ```
 
 ## DESCRIPTION
-The ConvertTo-FIMResource cmdlet deserializes XML resources used elsewhere in themmseeWindows PowerShell™ cmdlet set.
+The **ConvertTo-FIMResource** cmdlet deserializes XML resources used elsewhere in themmseeWindows PowerShell™ cmdlet set.
 The cmdlet returns ExportObject, ImportObject, and MatchObjects.
-This is the complement cmdlet to ConvertFrom-FIMResource .
+This is the complement cmdlet to the **ConvertFrom-FIMResource** cmdlet.
 
 The cmdlet deserializes the objects by usingXmlObjectSerializerin Windows .NET.
 
-To help distinguish ConvertTo-FIMResource from ConvertFrom-FIMResource , remember that you are converting to FIM resources from a file.
+To help distinguish **ConvertTo-FIMResource** from **ConvertFrom-FIMResource**, remember that you are converting to FIM resources from a file.
 
-For more information about themmseeWindows PowerShell™ cmdlet set see about_FIM.
 
 ## EXAMPLES
 
-### ------------------------ EXAMPLE 1 ------------------------
+### Example 1: Deserialize an ExportObject
 ```
-$pilot =  ConvertTo-FIMResource  -file pilot.xml $matches =  Join-FIMConfig  -source $pilot -target $production -defaultJoin "DisplayName"
+$Pilot =  ConvertTo-FIMResource  -File pilot.xml $Matches =  Join-FIMConfig  -Source $Pilot -Target $Production -defaultJoin "DisplayName"
 ```
 
-This is a simple example of how you can deserialize ExportObject instances that were serialized on another system.
+This command shows how you can deserialize ExportObject instances that were serialized on another system. The command stores the result to the variable named $Pilot.
 
 ## PARAMETERS
 
@@ -65,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -File
-{{Fill File Description}}
+Specifies the filename that this cmdlet deserializes.
 
 ```yaml
 Type: String
@@ -110,15 +109,12 @@ You only get back homogeneous types from this deserialization.
 
 ## RELATED LINKS
 
-[Export-FIMConfig]()
+[Compare-FIMConfig](Compare-FIMConfig.md)
 
-[Join-FIMConfig]()
+[ConvertFrom-FIMResource](xref:FIMAutomation/vlatest/ConvertFrom-FIMResource.md)
 
-[Compare-FIMConfig]()
+[Export-FIMConfig](xref:FIMAutomation/vlatest/Export-FIMConfig.md)
 
-[Import-FIMResource]()
+[Import-FIMResource](Import-FIMResource.md)
 
-[ConvertFrom-FIMResource]()
-
-[Import-Clixml]()
-
+[Join-FIMConfig](xref:FIMAutomation/vlatest/Join-FIMConfig.md)

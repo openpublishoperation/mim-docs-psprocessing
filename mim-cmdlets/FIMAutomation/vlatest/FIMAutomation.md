@@ -4,11 +4,11 @@ Module Guid: 00000000-0000-0000-0000-000000000000
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 5/9/2017 3:47 PM
-ms.date: 5/9/2017
+updated_at: 5/17/2017 2:42 AM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/FIMAutomation/vlatest/FIMAutomation.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/master/mim-cmdlets/FIMAutomation/vlatest/FIMAutomation.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/bba03e1e0b7bea04619c48b98278723b1a8fc13d/mim-cmdlets/FIMAutomation/vlatest/FIMAutomation.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/b087c1fa22e293ca887d71e98791a50333e0c2ab/mim-cmdlets/FIMAutomation/vlatest/FIMAutomation.md
 uid: FIMAutomation/vlatest/FIMAutomation.md
 ms.topic: conceptual
 author: tarameyer
@@ -21,36 +21,35 @@ ms.service: identity-manager
 
 # FIMAutomation Module
 ## Description
-{{Manually Enter Description Here}}
+This reference provides cmdlet descriptions and syntax for all FIM administrator specific and requestor cmdlets. It lists the cmdlets in alphabetical order based on the verb at the beginning of the cmdlet.
 
 ## FIMAutomation Cmdlets
 ### [Compare-FIMConfig](Compare-FIMConfig.md)
-{{Manually Enter Compare-FIMConfig Description Here}}
+Compares the attributes of MatchObject instances and to return an ordered list of changes you can use to make the target system look like the source system.
 
 ### [Confirm-AuthenticationWorkflowRegistration](Confirm-AuthenticationWorkflowRegistration.md)
-{{Manually Enter Confirm-AuthenticationWorkflowRegistration Description Here}}
+Determines if a user is a registered for a specific authentication workflow.
 
 ### [ConvertFrom-FIMResource](ConvertFrom-FIMResource.md)
-{{Manually Enter ConvertFrom-FIMResource Description Here}}
+Serializes FIMResource objects and stores them in the given file.
 
 ### [ConvertTo-FIMResource](ConvertTo-FIMResource.md)
-{{Manually Enter ConvertTo-FIMResource Description Here}}
+Deserializes FIMResource objects from the given file.
 
 ### [Export-FIMConfig](Export-FIMConfig.md)
-{{Manually Enter Export-FIMConfig Description Here}}
+Extracts configuration resources from the mmsee mmsshort Service.
 
 ### [Get-AuthenticationWorkflowRegistrationTemplate](Get-AuthenticationWorkflowRegistrationTemplate.md)
-{{Manually Enter Get-AuthenticationWorkflowRegistrationTemplate Description Here}}
+Gets an object of type AuthenticationWorkflowRegistrationTemplate that corresponds to an authentication workflow defined within the target Forefront Identity Manager service instance.
 
 ### [Import-FIMConfig](Import-FIMConfig.md)
-{{Manually Enter Import-FIMConfig Description Here}}
+Imports changes into the target FIM Service by using Web service calls.
 
 ### [Join-FIMConfig](Join-FIMConfig.md)
-{{Manually Enter Join-FIMConfig Description Here}}
+Joins two lists of ExportObject instances by using join criteria.
 
 ### [Register-AuthenticationWorkflow](Register-AuthenticationWorkflow.md)
-{{Manually Enter Register-AuthenticationWorkflow Description Here}}
+Registers a user for a Forefront Identity Manager service authentication workflow.
 
 ### [Unregister-AuthenticationWorkflow](Unregister-AuthenticationWorkflow.md)
-{{Manually Enter Unregister-AuthenticationWorkflow Description Here}}
-
+Unregisters a user for a Forefront Identity Manager service authentication workflow.
