@@ -2,11 +2,11 @@
 external help file: Microsoft.ResourceManagement.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 5/9/2017 3:47 PM
-ms.date: 5/9/2017
+updated_at: 5/17/2017 2:42 AM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/FIMAutomation/vlatest/Confirm-AuthenticationWorkflowRegistration.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/FIMAutomation/vlatest/Confirm-AuthenticationWorkflowRegistration.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/bba03e1e0b7bea04619c48b98278723b1a8fc13d/mim-cmdlets/FIMAutomation/vlatest/Confirm-AuthenticationWorkflowRegistration.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/b087c1fa22e293ca887d71e98791a50333e0c2ab/mim-cmdlets/FIMAutomation/vlatest/Confirm-AuthenticationWorkflowRegistration.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -19,7 +19,7 @@ ms.service: identity-manager
 # Confirm-AuthenticationWorkflowRegistration
 
 ## SYNOPSIS
-Use to determine if a user is a registered for a specific authentication workflow.
+Determines if a user is a registered for a specific authentication workflow.
 
 ## SYNTAX
 
@@ -29,21 +29,21 @@ Confirm-AuthenticationWorkflowRegistration -UserName <String> -AuthenticationWor
 ```
 
 ## DESCRIPTION
-Use to determine if a user is a registered for a specific authentication workflow.
+The **Confirm-AuthenticationWorkflowRegistration** cmdlet determines if a user is a registered for a specific authentication workflow.
 
 ## EXAMPLES
 
-### --------------  Check to see if a user is register for a specific authentication workflow --------------
+### Example 1: Check to see if a user is register for a specific authentication workflow
 ```
-Confirm-AuthenticationWorkflowRegistration -UserName "domain\user1" -AuthenticationWorkflowName "Password Reset AuthN Workflow"
+PS C:\> Confirm-AuthenticationWorkflowRegistration -UserName "domain\user1" -AuthenticationWorkflowName "Password Reset AuthN Workflow"
 ```
 
-The command returns a boolean value (True or False) indicating that the specified user is registered for the workflow specified by the workflow name parameter.
+This command returns a boolean value (True or False) indicating that the specified user is registered for the workflow specified by the workflow name parameter.
 
 ## PARAMETERS
 
 ### -UserName
-The username of the user for which you wish to check registration status. 
+Specifies the username of the user for which you wish to check registration status. 
 Please provide the username in the format: domain\username.
 
 ```yaml
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -AuthenticationWorkflowName
-The display name of the authentication workflow for which you wish to check registration status.
+Specifies the display name of the authentication workflow for which you wish to check registration status.
 
 ```yaml
 Type: String
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -Uri
-The uniform resource identifier for the Forefront Identity Manager service.
+Specifies the uniform resource identifier (URI) for the Forefront Identity Manager service.
 
 ```yaml
 Type: String
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-The user credentials required to access the Forefront Identity Manager service.
+Specifies the user credentials required to access the Forefront Identity Manager service.
 
 ```yaml
 Type: PSCredential
@@ -113,9 +113,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AuthenticationWorkflowRegistrationTemplate]()
+[Get-AuthenticationWorkflowRegistrationTemplate](xref:FIMAutomation/vlatest/Get-AuthenticationWorkflowRegistrationTemplate.md)
 
-[Register-AuthenticationWorkflow]()
+[Register-AuthenticationWorkflow](xref:FIMAutomation/vlatest/Register-AuthenticationWorkflow.md)
 
-[Unregister-AuthenticationWorkflow]()
-
+[Unregister-AuthenticationWorkflow](xref:FIMAutomation/vlatest/Unregister-AuthenticationWorkflow.md)

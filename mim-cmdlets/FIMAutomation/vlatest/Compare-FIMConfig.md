@@ -2,11 +2,11 @@
 external help file: Microsoft.ResourceManagement.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 5/9/2017 3:47 PM
-ms.date: 5/9/2017
+updated_at: 5/17/2017 2:42 AM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/FIMAutomation/vlatest/Compare-FIMConfig.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/FIMAutomation/vlatest/Compare-FIMConfig.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/bba03e1e0b7bea04619c48b98278723b1a8fc13d/mim-cmdlets/FIMAutomation/vlatest/Compare-FIMConfig.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/b087c1fa22e293ca887d71e98791a50333e0c2ab/mim-cmdlets/FIMAutomation/vlatest/Compare-FIMConfig.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -19,7 +19,7 @@ ms.service: identity-manager
 # Compare-FIMConfig
 
 ## SYNOPSIS
-In the Windows PowerShell™ command-line interface, use  Compare-FIMConfig  to compare the attributes of MatchObject instances and to return an ordered list of changes you can use to make the target system look like the source system.
+Compares the attributes of MatchObject instances and to return an ordered list of changes you can use to make the target system look like the source system.
 
 ## SYNTAX
 
@@ -28,7 +28,7 @@ Compare-FIMConfig [-MatchObject <MatchObject>] [-WhatIf] [-Confirm]
 ```
 
 ## DESCRIPTION
-The Compare-FIMConfig cmdlet accepts a list of MatchObject instances and performs an attribute-level comparison of the source and target resources.
+The **Compare-FIMConfig** cmdlet accepts a list of MatchObject instances and performs an attribute-level comparison of the source and target resources.
 The cmdlet returns a list of changes you can use to make to the target system look like the source system.
 These changes are represented by ImportObject instances.
 
@@ -39,7 +39,7 @@ All resources are processed generically without regard to object type except for
 These resources are processed in a special way.
 The cmdlet guarantees that all dependent sets are updated prior to updating Workflow Definitions.
 
-To avoid a common error: The Compare-FIMConfig cmdlet requires that no cycles exist in the configuration references in order to guarantee precedence order.
+To avoid a common error: The **Compare-FIMConfig** cmdlet requires that no cycles exist in the configuration references in order to guarantee precedence order.
 If a cycle exists, the cmdlet reports an error and does not generate correct changes.
 To proceed, remove at least one reference in the cycle.
 
@@ -47,23 +47,23 @@ For more information about themmseeWindows PowerShell™ cmdlet set see about_FI
 
 ## EXAMPLES
 
-### ------------------------ EXAMPLE 1 ------------------------
+### Example 1: Compare attributes
 ```
-$imports = $matches |  Compare-FIMConfig
-```
-
-This is a simple example of comparing.
-
-Note that you may inspect $imports prior to committing it to the target system.
-
-### ------------------------ EXAMPLE 2 ------------------------
-```
-$imports = $matches |  Compare-FIMConfig  -FriendlyName Write-Host $imports[0].Changes
+$Imports = $Matches |  Compare-FIMConfig
 ```
 
-This example displays the specific attribute-level changes that the first ImportObject includes.
+This command displays a simple example of comparison.
 
-Note that inspecting $imports no longer contains globally unique identifiers (GUIDs) in references, but instead the references are easily readable.
+Note that you may inspect $Imports prior to committing it to the target system.
+
+### Example 2: Display attribute-level changes
+```
+$Imports = $Matches |  Compare-FIMConfig  -FriendlyName Write-Host $imports[0].Changes
+```
+
+This command displays the specific attribute-level changes that the first ImportObject includes.
+
+Note that inspecting $Imports no longer contains globally unique identifiers (GUIDs) in references, but instead the references are easily readable.
 
 urn:\[ObjectType\]:\[AnchorAttributeName\]:{\[AnchorAttributeValue\]}
 
@@ -85,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -MatchObject
-{{Fill MatchObject Description}}
+Specifies the object that this cmdlet compares.
 
 ```yaml
 Type: MatchObject
@@ -130,13 +130,12 @@ Each ImportObject contains an atomic change to make in the target system so that
 
 ## RELATED LINKS
 
-[Export-FIMConfig]()
+[Export-FIMConfig](xref:FIMAutomation/vlatest/Export-FIMConfig.md)
 
-[Join-FIMConfig]()
+[Join-FIMConfig](xref:FIMAutomation/vlatest/Join-FIMConfig.md)
 
-[Import-FIMConfig]()
+[Import-FIMConfig](xref:FIMAutomation/vlatest/Import-FIMConfig.md)
 
-[ConvertFrom-FIMResource]()
+[ConvertFrom-FIMResource](xref:FIMAutomation/vlatest/ConvertFrom-FIMResource.md)
 
-[ConvertTo-FIMResource]()
-
+[ConvertTo-FIMResource](xref:FIMAutomation/vlatest/ConvertTo-FIMResource.md)

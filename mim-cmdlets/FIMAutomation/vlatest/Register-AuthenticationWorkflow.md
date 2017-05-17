@@ -2,11 +2,11 @@
 external help file: Microsoft.ResourceManagement.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 5/9/2017 3:47 PM
-ms.date: 5/9/2017
+updated_at: 5/17/2017 2:42 AM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/FIMAutomation/vlatest/Register-AuthenticationWorkflow.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/FIMAutomation/vlatest/Register-AuthenticationWorkflow.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/bba03e1e0b7bea04619c48b98278723b1a8fc13d/mim-cmdlets/FIMAutomation/vlatest/Register-AuthenticationWorkflow.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/b087c1fa22e293ca887d71e98791a50333e0c2ab/mim-cmdlets/FIMAutomation/vlatest/Register-AuthenticationWorkflow.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -35,36 +35,36 @@ In order to register a user, an authentication workflow registration template th
 
 ## EXAMPLES
 
-### --------------  Register User for an Authentication Workflow --------------
+### Example 1: Register User for an Authentication Workflow
 ```
-Register-AuthenticationWorkflow -UserName "domain\user1" -AuthenticationWorkflowRegistrationTemplate $template
-```
-
-In this example, the cmdlet is called to register user "domain\user1" using the specified template.
-
-### --------------  Set Workflow template data and register a user for the workflow --------------
-```
-$template = Get-AuthenticationWorkflowRegistrationTemplate -AuthenticationWorkflowName "Password Reset AuthN Workflow"
-          $usertemplate = $template.Clone()
-          $usertemplate.GateRegistrationTemplates[0].Data[0].Value="answer1"
-          $usertemplate.GateRegistrationTemplates[0].Data[1].Value="answer2"
-          $usertemplate.GateRegistrationTemplates[0].Data[2].Value="answer3"
-
-          Register-AuthenticationWorkflow -UserName "domain\user1" -AuthenticationWorkflowRegistrationTemplate $usertemplate
+PS C:\> Register-AuthenticationWorkflow -UserName "domain\user1" -AuthenticationWorkflowRegistrationTemplate $Template
 ```
 
-In this example, the Get-AuthenticationWorkflowRegistrationTemplate cmdlet is called to retrieve the password reset workflow template and assigned to the $template variable.
-            Then a copy of the template is created and assigned to $usertemplate variable.
+This command calls to register user domain\user1 using the specified template.
 
-            Assuming the workflow has only one Questions and Answers Gate, 3 answers are set as part of the gate data for the first 3 questions of the gate data
+### Example 2: Set Workflow template data and register a user for the workflow 
+```
+PS C:\> $Template = Get-AuthenticationWorkflowRegistrationTemplate -AuthenticationWorkflowName "Password Reset AuthN Workflow"
+          $Usertemplate = $template.Clone()
+          $Usertemplate.GateRegistrationTemplates[0].Data[0].Value="answer1"
+          $Usertemplate.GateRegistrationTemplates[0].Data[1].Value="answer2"
+          $Usertemplate.GateRegistrationTemplates[0].Data[2].Value="answer3"
 
-            After the data is set for the gate, the register command is called to register user "domain\user1" using the specified template.
+          Register-AuthenticationWorkflow -UserName "domain\user1" -AuthenticationWorkflowRegistrationTemplate $Usertemplate
+```
+
+This example uses the **Get-AuthenticationWorkflowRegistrationTemplate** cmdlet to get the password reset workflow template and assigned to the $Template variable.
+Then a copy of the template is created and assigned to $usertemplate variable.
+
+Assuming the workflow has only one Questions and Answers Gate, 3 answers are set as part of the gate data for the first 3 questions of the gate data.
+
+After the data is set for the gate, the register command is called to register user "domain\user1" using the specified template.
 
 ## PARAMETERS
 
 ### -UserName
-The username of the user for which you wish to register. 
-Please provide the username in the format: domain\username.
+Specifies the username of the user for which this cmdlet registers. 
+Provide the username in the format: domain\username.
 
 ```yaml
 Type: String
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -AuthenticationWorkflowRegistrationTemplate
-An authentication workflow registration template that has been filled in with the gate registration data for the specified user.
+Specifies an authentication workflow registration template that has been filled in with the gate registration data for the specified user.
 
 ```yaml
 Type: AuthenticationWorkflowRegistrationTemplate
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ```
 
 ### -Uri
-The uniform resource identifier for the Forefront Identity Manager service.
+Specifies the uniform resource identifier (URI) for the Forefront Identity Manager service.
 
 ```yaml
 Type: String
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-The user credentials required to access Forefront Identity Manager service.
+Specifies the user credentials required to access Forefront Identity Manager service.
 
 ```yaml
 Type: PSCredential
@@ -133,9 +133,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AuthenticationWorkflowRegistrationTemplate]()
+[Confirm-AuthenticationWorkflowRegistration](xref:FIMAutomation/vlatest/Confirm-AuthenticationWorkflowRegistration.md)
 
-[Unregister-AuthenticationWorkflow]()
+[Get-AuthenticationWorkflowRegistrationTemplate](xref:FIMAutomation/vlatest/Get-AuthenticationWorkflowRegistrationTemplate.md)
 
-[Confirm-AuthenticationWorkflowRegistration]()
-
+[Unregister-AuthenticationWorkflow](xref:FIMAutomation/vlatest/Unregister-AuthenticationWorkflow.md)

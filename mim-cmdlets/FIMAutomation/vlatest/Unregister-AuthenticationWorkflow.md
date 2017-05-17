@@ -2,11 +2,11 @@
 external help file: Microsoft.ResourceManagement.Automation.dll-Help.xml
 online version: 
 schema: 2.0.0
-updated_at: 5/9/2017 3:47 PM
-ms.date: 5/9/2017
+updated_at: 5/17/2017 2:42 AM
+ms.date: 5/17/2017
 content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/FIMAutomation/vlatest/Unregister-AuthenticationWorkflow.md
 original_content_git_url: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/live/mim-cmdlets/FIMAutomation/vlatest/Unregister-AuthenticationWorkflow.md
-gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/bba03e1e0b7bea04619c48b98278723b1a8fc13d/mim-cmdlets/FIMAutomation/vlatest/Unregister-AuthenticationWorkflow.md
+gitcommit: https://github.com/MicrosoftDocs/mim-docs-powershell/blob/b087c1fa22e293ca887d71e98791a50333e0c2ab/mim-cmdlets/FIMAutomation/vlatest/Unregister-AuthenticationWorkflow.md
 ms.topic: reference
 author: tarameyer
 ms.author: femila
@@ -29,21 +29,21 @@ Unregister-AuthenticationWorkflow -UserName <String> -AuthenticationWorkflowName
 ```
 
 ## DESCRIPTION
-Unregisters a user for a Forefront Identity Manager service authentication workflow.
+The **Unregister-AuthenticationWorkflow** cmdlet unregisters a user for a Forefront Identity Manager service authentication workflow.
 
 ## EXAMPLES
 
-### --------------  Unregister a user for an authentication workflow --------------
+### Example 1: Unregister a user for an authentication workflow 
 ```
-Unregister-AuthenticationWorkflow -UserName "domain\user1" -AuthenticationWorkflowName "Password Reset AuthN Workflow"
+PS C:\> Unregister-AuthenticationWorkflow -UserName "domain\user1" -AuthenticationWorkflowName "Password Reset AuthN Workflow"
 ```
 
-The command unregister the user "domain\user1" from the workflow specified by the workflow name parameter.
+This command unregisters the user named domain\user1 from the workflow specified by the workflow name parameter.
 
 ## PARAMETERS
 
 ### -UserName
-The username of the user for which you wish to unregister. 
+Specifies the username of the user for which this cmdlet unregisters. 
 Please provide the username in the format: domain\username.
 
 ```yaml
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -AuthenticationWorkflowName
-The display name of the authentication workflow which you wish to unregister the user from.
+Specifies the display name of the authentication workflow which you wish to unregister the user from.
 
 ```yaml
 Type: String
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -Uri
-The uniform resource identifier for the Forefront Identity Manager service.
+Specifies the uniform resource identifier for the Forefront Identity Manager service.
 
 ```yaml
 Type: String
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-The user credentials required to access the Forefront Identity Manager service.
+Specifies the user credentials required to access the Forefront Identity Manager service.
 
 ```yaml
 Type: PSCredential
@@ -113,9 +113,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AuthenticationWorkflowRegistrationTemplate]()
+[Confirm-AuthenticationWorkflowRegistration](xref:FIMAutomation/vlatest/Confirm-AuthenticationWorkflowRegistration.md)
 
-[Register-AuthenticationWorkflow]()
+[Get-AuthenticationWorkflowRegistrationTemplate](xref:FIMAutomation/vlatest/Get-AuthenticationWorkflowRegistrationTemplate.md)
 
-[Confirm-AuthenticationWorkflowRegistration]()
-
+[Register-AuthenticationWorkflow](xref:FIMAutomation/vlatest/Register-AuthenticationWorkflow.md)
