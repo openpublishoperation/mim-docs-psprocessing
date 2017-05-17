@@ -19,6 +19,7 @@
       "template_folder": "_themes",
       "customized_template_paths": [
         "azurecli/azurecli"
+        ]
     }
   ],
   "notification_subscribers": [],
